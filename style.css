@@ -1,0 +1,47 @@
+$backgroundColour: #86f04d;
+$mainColour: #162b0b;
+$accent1: #e9ff57;
+$accent2: #f78b8b;
+$accent3: #c22d2d;
+
+body {
+  text-align: center;
+  background-color: $backgroundColour;
+}
+
+h1 {
+  color: $mainColour;
+  font-size: 45px;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+}
+
+a {
+  text-align: left; 
+  color: $accent3;
+}
+
+#background {
+  padding: 1px;
+  margin-left: 30em;
+  margin-right: 30em;
+  background: $accent1;
+  border-radius: 50px;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+  padding: 5px;
+  background: $accent2;
+  border-radius: 10px;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+
