@@ -1,17 +1,11 @@
-$backgroundColour: #86f04d;
-$mainColour: #162b0b;
-$accent1: #e9ff57;
-$accent2: #f78b8b;
-$accent3: #c22d2d;
-
 body {
   text-align: center;
-  background-color: $backgroundColour;
+  background-color: #86f04d;
 }
 
-h1 {
-  color: $mainColour;
-  font-size: 45px;
+canvas {
+  padding: 10px;
+  font: "georgia";
 }
 
 p {
@@ -21,14 +15,14 @@ p {
 
 a {
   text-align: left; 
-  color: $accent3;
+  color: #c22d2d;
 }
 
 #background {
   padding: 1px;
   margin-left: 30em;
   margin-right: 30em;
-  background: $accent1;
+  background: #e9ff57;
   border-radius: 50px;
 }
 
@@ -36,7 +30,7 @@ li {
   display: inline;
   margin: 10px;
   padding: 5px;
-  background: $accent2;
+  background: #f78b8b;
   border-radius: 10px;
 }
 
