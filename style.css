@@ -1,6 +1,9 @@
 body {
   text-align: center;
   background-color: #86f04d;
+  background-image: url('https://raw.githubusercontent.com/bmclach/P1.3/main/DROOGAN.png');
+  background-size: 100%, 100%;
+  position: relative;
 }
 
 canvas {
@@ -26,6 +29,12 @@ a {
   border-radius: 50px;
 }
 
+img {
+  width: 500px;
+
+}
+
+
 li {
   display: inline;
   margin: 10px;
@@ -38,4 +47,12 @@ a:hover {
   color: #ffffff;
 }
 
-
+.footer {
+  position: absolute;
+  background-color: #162b0b;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  right: 0;
+  left: 0;
+};
